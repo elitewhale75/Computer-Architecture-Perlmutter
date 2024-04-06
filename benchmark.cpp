@@ -51,6 +51,7 @@ int main(int argc, char** argv)
       std::chrono::duration<double> elapsed = end_time - start_time;
 
       std::cout << " Elapsed time is : " << elapsed.count() << " " << std::endl;
+      printf("Elapsed time is : %0.4f\n", elapsed.count());
 
       printf(" Sum result = %lld \n",t);
 
